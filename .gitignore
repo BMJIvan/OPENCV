@@ -1,5 +1,9 @@
+.vscode
+
 images/*
+practices/*
 videos/*
+
 main.exe
 RSimage.cpp
 RSimage.h

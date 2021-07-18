@@ -1,0 +1,13 @@
+  cv::VideoCapture capture;
+    capture.open(filename);
+
+    int fps=capture.get(cv::CAP_PROP_FPS);
+
+    cv::Mat frame;
+    for(;;)
+    {
+        capture>>frame;
+        if(frame.empty()) break;
+        cv::imshow("Ventana",frame);
+        if(cv::waitKey(fps)>=0) break;
+    }

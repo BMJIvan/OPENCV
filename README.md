@@ -1,3 +1,3 @@
 ### OpenCV
 
-Este repositorio lo hice cuando realizaba ejercicios de un libro, el cual no diré de donde lo conseguí
+I made this repository when I was doing exercises from a book, which I will not say where I got it from
